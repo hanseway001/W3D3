@@ -1,0 +1,112 @@
+html, body, h1, h2, p{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+Header {    
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px #ffffff solid;
+    margin: 0 0 0 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+header p {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 20px 0 5px 0;
+    margin-left: 20px;
+}
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 20px 50px 5px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 18px ;
+}
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;    
+    background-image: url("images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg");
+    background-size: cover;
+    background-position: 0px -180px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent h1 {
+    padding: 30px;
+    font-size: 75px;
+    border-bottom: 2px solid #ffffff;
+}
+.mainContent p {
+    font-size: 45px;
+    padding: 40px 0 80px 0;
+    font-weight: 100;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+}
+#content h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+#content p {
+    font-weight: 100;
+}
+#content1 {
+    display: flex;
+}
+#content1Image {
+    height: 400px; 
+    width: 900px;
+    background-size: cover;
+    background-image: url("images/human-holding-a-bread-745988.jpg");
+    background-repeat: no-repeat;
+}
+#content2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#content2Image {
+    height: 400px;
+    width: 900px;
+    background-size: cover;
+    background-image: url("images/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg"); 
+    background-repeat: no-repeat;
+}
+#content3 {
+    display: flex;
+    
+}
+#content3Image {
+    height: 330px;
+    width: 900px;
+    background-size: cover;
+    background-image: url("images/cooked-pasta-on-brown-wooden-bowl-803963.jpg"); 
+    background-repeat: no-repeat;
+}
+div #content {
+    display: flex;
+    width: 100%;
+    padding: 0px 80px;
+}
